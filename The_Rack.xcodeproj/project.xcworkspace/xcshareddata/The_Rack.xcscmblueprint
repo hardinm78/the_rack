@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "380EE2FB08591FCD479EA4E906577268878154AD",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "56ACE830818383339BE9448FED4C94EE7A628B6B" : 0,
+    "380EE2FB08591FCD479EA4E906577268878154AD" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "8C3088C9-12FC-4064-A034-E278B584A03A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "56ACE830818383339BE9448FED4C94EE7A628B6B" : "the_rack\/the_rack\/",
+    "380EE2FB08591FCD479EA4E906577268878154AD" : "the_rack\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "The_Rack",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "The_Rack.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/hardinm78\/the_rack.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "380EE2FB08591FCD479EA4E906577268878154AD"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/hardinm78\/the_rack.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "56ACE830818383339BE9448FED4C94EE7A628B6B"
+    }
+  ]
+}
