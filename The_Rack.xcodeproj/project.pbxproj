@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2027B118387BF5E0ABEF372D /* Pods_The_Rack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7597B3F2F7A486EE563B196E /* Pods_The_Rack.framework */; };
 		8E75FA5F1CADBBAE007A8911 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E75FA5E1CADBBAE007A8911 /* MaterialView.swift */; };
 		8E75FA621CADBC0F007A8911 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E75FA611CADBC0F007A8911 /* Constants.swift */; };
 		8E75FA641CAEA357007A8911 /* MaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E75FA631CAEA357007A8911 /* MaterialButton.swift */; };
@@ -20,9 +21,14 @@
 		8EA23D3C1CADB57F00C2EFE9 /* NotoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8EA23D381CADB57F00C2EFE9 /* NotoSans-BoldItalic.ttf */; };
 		8EA23D3D1CADB57F00C2EFE9 /* NotoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8EA23D391CADB57F00C2EFE9 /* NotoSans-Italic.ttf */; };
 		8EA23D3E1CADB57F00C2EFE9 /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8EA23D3A1CADB57F00C2EFE9 /* NotoSans-Regular.ttf */; };
+		8EA55C3E1CB2EA87000CF102 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EA55C3B1CB2EA87000CF102 /* Bolts.framework */; };
+		8EA55C3F1CB2EA87000CF102 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EA55C3C1CB2EA87000CF102 /* FBSDKCoreKit.framework */; };
+		8EA55C401CB2EA87000CF102 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EA55C3D1CB2EA87000CF102 /* FBSDKLoginKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		52C3FD52892BCA366B421CDA /* Pods-The_Rack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The_Rack.release.xcconfig"; path = "Pods/Target Support Files/Pods-The_Rack/Pods-The_Rack.release.xcconfig"; sourceTree = "<group>"; };
+		7597B3F2F7A486EE563B196E /* Pods_The_Rack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_The_Rack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E75FA5E1CADBBAE007A8911 /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
 		8E75FA611CADBC0F007A8911 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		8E75FA631CAEA357007A8911 /* MaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialButton.swift; sourceTree = "<group>"; };
@@ -38,6 +44,10 @@
 		8EA23D381CADB57F00C2EFE9 /* NotoSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-BoldItalic.ttf"; sourceTree = "<group>"; };
 		8EA23D391CADB57F00C2EFE9 /* NotoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Italic.ttf"; sourceTree = "<group>"; };
 		8EA23D3A1CADB57F00C2EFE9 /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Regular.ttf"; sourceTree = "<group>"; };
+		8EA55C3B1CB2EA87000CF102 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		8EA55C3C1CB2EA87000CF102 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		8EA55C3D1CB2EA87000CF102 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		D114DB3942376D3EED068709 /* Pods-The_Rack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The_Rack.debug.xcconfig"; path = "Pods/Target Support Files/Pods-The_Rack/Pods-The_Rack.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,12 +55,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EA55C3E1CB2EA87000CF102 /* Bolts.framework in Frameworks */,
+				8EA55C3F1CB2EA87000CF102 /* FBSDKCoreKit.framework in Frameworks */,
+				8EA55C401CB2EA87000CF102 /* FBSDKLoginKit.framework in Frameworks */,
+				2027B118387BF5E0ABEF372D /* Pods_The_Rack.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F79A8F40DD55BF27E21EB85 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7597B3F2F7A486EE563B196E /* Pods_The_Rack.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4BD82737F7F83188E17FED7B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D114DB3942376D3EED068709 /* Pods-The_Rack.debug.xcconfig */,
+				52C3FD52892BCA366B421CDA /* Pods-The_Rack.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8E75FA601CADBBF7007A8911 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
@@ -64,6 +95,8 @@
 			children = (
 				8EA23D241CADB56A00C2EFE9 /* The_Rack */,
 				8EA23D231CADB56A00C2EFE9 /* Products */,
+				4BD82737F7F83188E17FED7B /* Pods */,
+				0F79A8F40DD55BF27E21EB85 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,6 +111,7 @@
 		8EA23D241CADB56A00C2EFE9 /* The_Rack */ = {
 			isa = PBXGroup;
 			children = (
+				8EA55C3A1CB2EA7A000CF102 /* Frameworks */,
 				8E75FA601CADBBF7007A8911 /* Utils */,
 				8EA23D411CADB59500C2EFE9 /* Model */,
 				8EA23D401CADB58D00C2EFE9 /* View */,
@@ -128,6 +162,16 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
+		8EA55C3A1CB2EA7A000CF102 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8EA55C3B1CB2EA87000CF102 /* Bolts.framework */,
+				8EA55C3C1CB2EA87000CF102 /* FBSDKCoreKit.framework */,
+				8EA55C3D1CB2EA87000CF102 /* FBSDKLoginKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +179,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8EA23D341CADB56A00C2EFE9 /* Build configuration list for PBXNativeTarget "The_Rack" */;
 			buildPhases = (
+				02E359E05CDC5B731C82B87A /* Check Pods Manifest.lock */,
 				8EA23D1E1CADB56A00C2EFE9 /* Sources */,
 				8EA23D1F1CADB56A00C2EFE9 /* Frameworks */,
 				8EA23D201CADB56A00C2EFE9 /* Resources */,
+				615959903E57A26E388014C9 /* Embed Pods Frameworks */,
+				73CEF5A9A1F959B45D6B03B0 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -198,6 +245,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		02E359E05CDC5B731C82B87A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		615959903E57A26E388014C9 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-The_Rack/Pods-The_Rack-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73CEF5A9A1F959B45D6B03B0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-The_Rack/Pods-The_Rack-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8EA23D1E1CADB56A00C2EFE9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -255,6 +350,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -301,6 +397,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -321,8 +418,14 @@
 		};
 		8EA23D351CADB56A00C2EFE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D114DB3942376D3EED068709 /* Pods-The_Rack.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/The_Rack",
+				);
 				INFOPLIST_FILE = The_Rack/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.MichaelHardin.The-Rack";
@@ -332,8 +435,14 @@
 		};
 		8EA23D361CADB56A00C2EFE9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52C3FD52892BCA366B421CDA /* Pods-The_Rack.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/The_Rack",
+				);
 				INFOPLIST_FILE = The_Rack/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.MichaelHardin.The-Rack";

@@ -17,16 +17,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mhlogo" translatesAutoresizingMaskIntoConstraints="NO" id="Cvu-lI-UFt">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rack" translatesAutoresizingMaskIntoConstraints="NO" id="7HC-kW-fFP">
+                                <rect key="frame" x="200" y="200" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="gdj-eR-Sty"/>
+                                    <constraint firstAttribute="width" constant="200" id="zEs-oP-bcj"/>
+                                </constraints>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.058823529411764705" green="0.26666666666666666" blue="0.1764705882352941" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="Cvu-lI-UFt" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="Fni-Ap-pYn"/>
-                            <constraint firstItem="Cvu-lI-UFt" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="Nzw-27-3sY"/>
-                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="Cvu-lI-UFt" secondAttribute="bottom" id="Os0-QK-JdS"/>
-                            <constraint firstAttribute="trailing" secondItem="Cvu-lI-UFt" secondAttribute="trailing" id="aDC-5l-L10"/>
+                            <constraint firstItem="7HC-kW-fFP" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="2i2-ck-hDV"/>
+                            <constraint firstItem="7HC-kW-fFP" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="PuF-12-Q3w"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -36,6 +38,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="mhlogo" width="4098" height="3072"/>
+        <image name="rack" width="566" height="562"/>
     </resources>
 </document>
