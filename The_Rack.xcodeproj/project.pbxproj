@@ -12,6 +12,8 @@
 		8E75FA621CADBC0F007A8911 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E75FA611CADBC0F007A8911 /* Constants.swift */; };
 		8E75FA641CAEA357007A8911 /* MaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E75FA631CAEA357007A8911 /* MaterialButton.swift */; };
 		8E75FA661CAEA93E007A8911 /* MaterialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E75FA651CAEA93E007A8911 /* MaterialTextField.swift */; };
+		8E9C3DCA1CB4122900A0F618 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9C3DC91CB4122900A0F618 /* FeedVC.swift */; };
+		8E9C3DCC1CB412EB00A0F618 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9C3DCB1CB412EB00A0F618 /* PostCell.swift */; };
 		8EA23D261CADB56A00C2EFE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA23D251CADB56A00C2EFE9 /* AppDelegate.swift */; };
 		8EA23D281CADB56A00C2EFE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA23D271CADB56A00C2EFE9 /* ViewController.swift */; };
 		8EA23D2B1CADB56A00C2EFE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EA23D291CADB56A00C2EFE9 /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 		8E75FA611CADBC0F007A8911 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		8E75FA631CAEA357007A8911 /* MaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialButton.swift; sourceTree = "<group>"; };
 		8E75FA651CAEA93E007A8911 /* MaterialTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialTextField.swift; sourceTree = "<group>"; };
+		8E9C3DC91CB4122900A0F618 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		8E9C3DCB1CB412EB00A0F618 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		8EA23D221CADB56A00C2EFE9 /* The_Rack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = The_Rack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EA23D251CADB56A00C2EFE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8EA23D271CADB56A00C2EFE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -132,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				8EA23D271CADB56A00C2EFE9 /* ViewController.swift */,
+				8E9C3DC91CB4122900A0F618 /* FeedVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -143,6 +148,7 @@
 				8E75FA5E1CADBBAE007A8911 /* MaterialView.swift */,
 				8E75FA631CAEA357007A8911 /* MaterialButton.swift */,
 				8E75FA651CAEA93E007A8911 /* MaterialTextField.swift */,
+				8E9C3DCB1CB412EB00A0F618 /* PostCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -313,6 +319,8 @@
 				8EA55C431CB3F0D3000CF102 /* DataService.swift in Sources */,
 				8E75FA5F1CADBBAE007A8911 /* MaterialView.swift in Sources */,
 				8EA23D281CADB56A00C2EFE9 /* ViewController.swift in Sources */,
+				8E9C3DCA1CB4122900A0F618 /* FeedVC.swift in Sources */,
+				8E9C3DCC1CB412EB00A0F618 /* PostCell.swift in Sources */,
 				8EA23D261CADB56A00C2EFE9 /* AppDelegate.swift in Sources */,
 				8E75FA621CADBC0F007A8911 /* Constants.swift in Sources */,
 				8E75FA641CAEA357007A8911 /* MaterialButton.swift in Sources */,
