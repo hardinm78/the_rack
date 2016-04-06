@@ -5,7 +5,8 @@ use_frameworks!
 
 target 'The_Rack' do
 pod 'Firebase', '>= 2.5.1'
-
+source 'https://github.com/CocoaPods/Specs.git'
+pod 'Alamofire', '~> 3.0'
 
 end
 

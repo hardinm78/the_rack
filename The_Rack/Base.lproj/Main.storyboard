@@ -13,8 +13,10 @@
             <string>NotoSans-Bold</string>
             <string>NotoSans-Bold</string>
             <string>NotoSans-Bold</string>
+            <string>NotoSans-Bold</string>
         </mutableArray>
         <mutableArray key="NotoSans-Regular.ttf">
+            <string>NotoSans</string>
             <string>NotoSans</string>
             <string>NotoSans</string>
             <string>NotoSans</string>
@@ -199,7 +201,7 @@
         <!--FeedVC-->
         <scene sceneID="SEF-04-nkz">
             <objects>
-                <viewController id="O4i-hs-d6Z" customClass="FeedVC" customModule="The_Rack" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="O4i-hs-d6Z" customClass="FeedVC" customModule="The_Rack" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="i12-Cs-NYe"/>
                         <viewControllerLayoutGuide type="bottom" id="gF6-gx-ydB"/>
@@ -209,11 +211,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="368" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="XKr-KE-i1d">
-                                <rect key="frame" x="20" y="64" width="560" height="536"/>
+                                <rect key="frame" x="20" y="133" width="560" height="467"/>
                                 <color key="backgroundColor" red="0.058823529409999999" green="0.2666666667" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PostCell" rowHeight="368" id="UqR-l4-GBw" customClass="PostCell" customModule="The_Rack" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="92" width="560" height="368"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="PostCell" rowHeight="368" id="UqR-l4-GBw" customClass="PostCell" customModule="The_Rack" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="560" height="368"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="UqR-l4-GBw" id="qvV-0Z-y2o">
                                             <rect key="frame" x="0.0" y="0.0" width="560" height="368"/>
@@ -301,29 +303,98 @@
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" red="0.058823529411764705" green="0.26666666666666666" blue="0.1764705882352941" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
+                                            <outlet property="descriptionText" destination="r07-wh-c1n" id="VvK-Sf-LFx"/>
+                                            <outlet property="likeImage" destination="6Zw-Ky-h8M" id="Czs-IH-9RR"/>
+                                            <outlet property="likesLbl" destination="37q-oM-T4e" id="JIa-fS-qLM"/>
                                             <outlet property="profileImg" destination="kSu-eO-iwS" id="LDR-UY-UgT"/>
                                             <outlet property="showcaseImg" destination="mnK-0S-tZy" id="9m7-VI-Abs"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eKI-vz-5Zk" customClass="MaterialView" customModule="The_Rack" customModuleProvider="target">
+                                <rect key="frame" x="20" y="72" width="560" height="53"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="k47-UX-tjp">
+                                        <rect key="frame" x="8" y="8" width="544" height="37"/>
+                                        <subviews>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Post something pool related" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jJz-FT-CYx" customClass="MaterialTextField" customModule="The_Rack" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="437" height="37"/>
+                                                <color key="backgroundColor" red="0.87843137250000003" green="0.87843137250000003" blue="0.87843137250000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" name="NotoSans" family="Noto Sans" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="camera" translatesAutoresizingMaskIntoConstraints="NO" id="BBf-6O-Zcy">
+                                                <rect key="frame" x="447" y="0.0" width="37" height="37"/>
+                                                <gestureRecognizers/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="37" id="JE3-s1-mpZ"/>
+                                                    <constraint firstAttribute="height" constant="37" id="xZW-48-BH3"/>
+                                                </constraints>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="d5H-Lm-x7Z" appends="YES" id="ybs-yw-YCK"/>
+                                                </connections>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zvv-Ya-cXl" customClass="MaterialButton" customModule="The_Rack" customModuleProvider="target">
+                                                <rect key="frame" x="494" y="0.0" width="50" height="37"/>
+                                                <color key="backgroundColor" red="0.1238112225" green="0.56799999999999995" blue="0.37549342660000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="50" id="5Pb-vb-0Gm"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="NotoSans-Bold" family="Noto Sans" pointSize="14"/>
+                                                <state key="normal" title="POST">
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="makePost:" destination="O4i-hs-d6Z" eventType="touchUpInside" id="RcV-HB-d9x"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="53" id="4Sf-aV-ZmY"/>
+                                    <constraint firstItem="k47-UX-tjp" firstAttribute="leading" secondItem="eKI-vz-5Zk" secondAttribute="leadingMargin" id="5iq-aS-M5G"/>
+                                    <constraint firstAttribute="bottomMargin" secondItem="k47-UX-tjp" secondAttribute="bottom" id="S0L-jc-cPl"/>
+                                    <constraint firstItem="k47-UX-tjp" firstAttribute="top" secondItem="eKI-vz-5Zk" secondAttribute="topMargin" id="VYQ-Cz-Y9k"/>
+                                    <constraint firstAttribute="trailingMargin" secondItem="k47-UX-tjp" secondAttribute="trailing" id="aNS-6H-1wS"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="0.058823529411764705" green="0.26666666666666666" blue="0.1764705882352941" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="gF6-gx-ydB" firstAttribute="top" secondItem="XKr-KE-i1d" secondAttribute="bottom" id="4Ev-N6-LaG"/>
+                            <constraint firstItem="XKr-KE-i1d" firstAttribute="top" secondItem="eKI-vz-5Zk" secondAttribute="bottom" constant="8" id="7IN-Tp-xDs"/>
+                            <constraint firstItem="eKI-vz-5Zk" firstAttribute="top" secondItem="i12-Cs-NYe" secondAttribute="bottom" constant="8" id="8CP-87-gWK"/>
+                            <constraint firstItem="eKI-vz-5Zk" firstAttribute="leading" secondItem="JVG-r4-c3X" secondAttribute="leadingMargin" id="HvF-Rk-KYW"/>
+                            <constraint firstItem="eKI-vz-5Zk" firstAttribute="trailing" secondItem="JVG-r4-c3X" secondAttribute="trailingMargin" id="Lgi-61-652"/>
                             <constraint firstItem="XKr-KE-i1d" firstAttribute="top" secondItem="i12-Cs-NYe" secondAttribute="bottom" id="cHF-zK-ggr"/>
                             <constraint firstItem="XKr-KE-i1d" firstAttribute="trailing" secondItem="JVG-r4-c3X" secondAttribute="trailingMargin" id="oRq-bt-JLu"/>
                             <constraint firstItem="XKr-KE-i1d" firstAttribute="leading" secondItem="JVG-r4-c3X" secondAttribute="leadingMargin" id="qJw-wB-DTp"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="cHF-zK-ggr"/>
+                            </mask>
+                        </variation>
                     </view>
                     <navigationItem key="navigationItem" id="vNE-PR-6az"/>
                     <connections>
+                        <outlet property="imageSelectorImage" destination="BBf-6O-Zcy" id="Rqw-bN-ckc"/>
+                        <outlet property="postField" destination="jJz-FT-CYx" id="4Sg-K2-dAJ"/>
                         <outlet property="tableView" destination="XKr-KE-i1d" id="M72-0v-v86"/>
+                        <outlet property="usernameLbl" destination="AMf-5e-5GJ" id="tgN-yQ-ud6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="d7c-Mh-8Ra" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="d5H-Lm-x7Z">
+                    <connections>
+                        <action selector="selectImage:" destination="O4i-hs-d6Z" id="WXX-4z-h0B"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="1841" y="271"/>
+            <point key="canvasLocation" x="1685" y="271"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="q2C-Ay-jXN">
@@ -342,10 +413,11 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tOX-lK-UO1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1171" y="286"/>
+            <point key="canvasLocation" x="984" y="271"/>
         </scene>
     </scenes>
     <resources>
+        <image name="camera" width="50" height="50"/>
         <image name="fb-icon" width="65" height="65"/>
         <image name="flyer" width="528" height="768"/>
         <image name="heart-empty" width="150" height="147"/>
