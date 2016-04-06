@@ -15,7 +15,7 @@ class FeedVC: UIViewController, UITableViewDelegate, UITableViewDataSource, UIIm
     @IBOutlet weak var imageSelectorImage: UIImageView!
     @IBOutlet weak var postField: MaterialTextField!
     @IBOutlet weak var tableView: UITableView!
-    @IBOutlet weak var usernameLbl: UILabel!
+  
     var posts = [Post]()
     static var imageCache = NSCache()
     var imageSelected = false

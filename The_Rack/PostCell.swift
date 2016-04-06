@@ -17,6 +17,7 @@ class PostCell: UITableViewCell {
     @IBOutlet weak var descriptionText: UITextView!
     @IBOutlet weak var likesLbl: UILabel!
     @IBOutlet weak var likeImage: UIImageView!
+    @IBOutlet weak var usernameLbl: UILabel!
     var post: Post!
     var request: Request?
     var likeRef: Firebase!

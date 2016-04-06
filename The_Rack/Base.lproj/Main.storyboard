@@ -196,7 +196,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="519" y="286"/>
+            <point key="canvasLocation" x="282" y="277"/>
         </scene>
         <!--FeedVC-->
         <scene sceneID="SEF-04-nkz">
@@ -308,6 +308,7 @@
                                             <outlet property="likesLbl" destination="37q-oM-T4e" id="JIa-fS-qLM"/>
                                             <outlet property="profileImg" destination="kSu-eO-iwS" id="LDR-UY-UgT"/>
                                             <outlet property="showcaseImg" destination="mnK-0S-tZy" id="9m7-VI-Abs"/>
+                                            <outlet property="usernameLbl" destination="AMf-5e-5GJ" id="GUS-rS-g5b"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -384,7 +385,6 @@
                         <outlet property="imageSelectorImage" destination="BBf-6O-Zcy" id="Rqw-bN-ckc"/>
                         <outlet property="postField" destination="jJz-FT-CYx" id="4Sg-K2-dAJ"/>
                         <outlet property="tableView" destination="XKr-KE-i1d" id="M72-0v-v86"/>
-                        <outlet property="usernameLbl" destination="AMf-5e-5GJ" id="tgN-yQ-ud6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="d7c-Mh-8Ra" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -413,7 +413,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tOX-lK-UO1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="984" y="271"/>
+            <point key="canvasLocation" x="936" y="277"/>
         </scene>
     </scenes>
     <resources>
